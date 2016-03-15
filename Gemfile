@@ -3,7 +3,6 @@ ruby '2.2.2'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 
 gem 'rails', '4.2.5'
-gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
@@ -13,7 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.0.2'
-
+gem 'pg', '~> 0.18.4'
 
 
 
