@@ -19,6 +19,11 @@
     <%= f.label :url %><br>
     <%= f.text_field :url, class: "form-control" %>
   </div>
+  <p>
+  <i class="glyphicon glyphicon-pencil"></i>
+    <%= f.label :Description %><br />
+    <%= f.text_area :body, :placeholder => "Write Something...", :class => 'form-control' %> 
+  </p>  
   <br>
   <div class="form-group">
     <%= f.submit "Submit", class: "btn btn-lg btn-primary" %>

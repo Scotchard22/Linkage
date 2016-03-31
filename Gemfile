@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.0.2'
-gem 'pg', '~> 0.18.4'
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 
 
 
